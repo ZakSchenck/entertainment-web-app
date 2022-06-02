@@ -1,0 +1,28 @@
+@import "../scss-variables/variables.scss";
+
+.search-section {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-top: 16px;
+    img {
+        width: 24px;
+        height: 24px;
+        margin-left: 10px;
+    }
+    input {
+        width: 100%;
+        background-color: transparent;
+        border: none;
+        margin-left: 16px;
+        font-size: 15px;
+        height: 35px;
+        margin-right: 10px;
+        color: white;
+        &:focus {
+            outline: none !important;
+            border-bottom: 2px solid $lightBlue;
+        }
+    }
+}

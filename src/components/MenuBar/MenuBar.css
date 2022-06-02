@@ -1,0 +1,92 @@
+header {
+  height: 56px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  width: 100%;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: #161D2F;
+}
+
+header #logo {
+  margin-left: 10px;
+  width: 25px;
+  height: 20px;
+}
+
+header #avatar {
+  width: 24px;
+  height: 24px;
+  margin-right: 10px;
+  border: 1px solid white;
+  border-radius: 50%;
+}
+
+header div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 16px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 0 auto;
+}
+
+header div img {
+  height: 16px;
+  width: 16px;
+  z-index: 100;
+  position: relative;
+}
+
+@media all and (min-width: 1400px) {
+  header {
+    height: 96%;
+    width: 96px;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    position: fixed;
+    left: 33px;
+    z-index: 99;
+    border-radius: 8px;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  header #avatar {
+    margin-right: 0;
+    margin-top: auto;
+    margin-bottom: 60px;
+    width: 30px;
+    height: 30px;
+  }
+  header #logo {
+    margin-left: 0;
+    margin-bottom: 70px;
+    margin-top: 20px;
+  }
+  header div {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  header div img {
+    height: 20px;
+    width: 20px;
+    margin-top: 10px;
+  }
+}
+/*# sourceMappingURL=MenuBar.css.map */

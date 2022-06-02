@@ -1,0 +1,66 @@
+@import "../scss-variables/variables.scss";
+
+h1 {
+  margin-left: 14px;
+  font-weight: 300;
+  margin-top: 20px;
+  margin-bottom: 12px;
+  font-size: 25px;
+}
+
+.trending-txt-wrap {
+  display: flex;
+  flex-direction: row;
+  overflow-x: hidden;
+  margin-left: 7px;
+  .media-container {
+      position: relative;
+      &:hover {
+          cursor: pointer;
+      }
+  }
+  .media-img {
+    width: 200px;
+    height: auto;
+    border-radius: 8px;
+    margin: 7px;
+    position: relative;
+  }
+}
+
+.movie-info-wrapper {
+   position: absolute;
+   bottom: 40px;
+   font-size: 14px;
+   display: flex;
+   flex-direction: row;
+   align-items: center;
+   left: 20px;
+   pointer-events: none;
+   p {
+    color: $text;
+    text-shadow: 10px 0px 8px  black;
+   }
+   img {
+       filter: brightness(0) invert(1);
+       width: 12px;
+       height: 12px;
+   }
+}
+
+#movie-title {
+    position: absolute;
+    bottom: 15px;
+    left: 20px;
+    text-shadow: 10px 0px 8px  black;
+    font-weight: 500;
+}
+
+@media all and (min-width: 750px) {
+    .trending-txt-wrap {
+        .media-img {
+          width: 470px;
+          height: 230px;
+        }
+      }
+}
