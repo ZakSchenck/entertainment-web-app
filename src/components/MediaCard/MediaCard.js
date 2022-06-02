@@ -38,11 +38,13 @@ function MediaCard({ media, trendState }) {
           setIsHovering(!isHovering);
           console.log(isHovering);
         }}
+        alt="bookmark"
       />
 
       <img
         className="media-img"
         src={`./${thumbnail.regular.small.slice(9)}`}
+        alt="media image"
       />
       <div className={`${trendState ? "movie-info-wrapper" : "movie-info"}`}>
         <p>{year} •&nbsp;</p>
