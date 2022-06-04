@@ -13,16 +13,16 @@ function MenuBar() {
     <header>
       <img src={logo} id="logo" alt="logo" />
       <div className="filter-icons">
-        <Link to="/">
+        <Link to="/entertainment-web-app">
           <img src={home} alt="home button" />
         </Link>
-        <Link to="/movies">
+        <Link to="/entertainment-web-app/movies">
           <img src={movies} alt="movies button" />
         </Link>
-        <Link to="/series">
+        <Link to="/entertainment-web-app/series">
           <img src={series} alt="series button" />
         </Link>
-        <Link to="/bookmarked">
+        <Link to="/entertainment-web-app/bookmarked">
           <img src={bookmark} alt="bookmark button" />
         </Link>
       </div>
