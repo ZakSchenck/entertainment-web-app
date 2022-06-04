@@ -37,7 +37,7 @@ function App() {
           <MenuBar />
           <div className="hub-wrapper">
             <Routes>
-              <Route path="/entertainment-web-app" element={<Recommended />} />
+              <Route path="/entertainment-web-app/" element={<Recommended />} />
               <Route path="/entertainment-web-app/movies" element={<Movies />} />
               <Route path="/entertainment-web-app/series" element={<Series />} />
               <Route
