@@ -101,14 +101,14 @@
   z-index: 100;
 }
 
-#bookmark {
+.bookmark {
   top: 15px;
   right: 15px;
   position: absolute;
   z-index: 200;
 }
 
-#bookmark:hover {
+.bookmark:hover {
   cursor: pointer;
 }
 

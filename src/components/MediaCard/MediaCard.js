@@ -31,7 +31,7 @@ function MediaCard({ media, trendState }) {
   return (
     <div className="media-container">
       <img
-        id="bookmark"
+        class="bookmark"
         src={media.isBookmarked ? bookmarkFull : bookmarkEmpty}
         onClick={toggleBookmark}
         onMouseEnter={() => {
@@ -52,7 +52,7 @@ function MediaCard({ media, trendState }) {
         <p>&nbsp;{category} •&nbsp;</p>
         <p>{rating}</p>
       </div>
-      <p id={`${trendState ? "movie-title" : "title"}`}>{title}</p>
+      <p class={`${trendState ? "movie-title" : "title"}`}>{title}</p>
     </div>
   );
 }

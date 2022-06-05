@@ -64,7 +64,7 @@ h1 {
   height: 12px;
 }
 
-#movie-title {
+.movie-title {
   position: absolute;
   bottom: 15px;
   left: 20px;
