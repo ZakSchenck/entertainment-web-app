@@ -5,13 +5,13 @@
   Live Site: https://zakschenck.github.io/entertainment-web-app/
   
   ## Tools Used
-  • React
-  • Sass/SCSS
-  • React Router
+  • React <br>
+  • Sass/SCSS <br>
+  • React Router <br>
   ## Main Hooks Used
-  • useState
-  • useEffect
-  • useContext
+  • useState <br>
+  • useEffect <br>
+  • useContext <br>
   
   ## Project Hurtles
   In this project, having shared state between the media arrays was extremely important. I could have used Redux, but that would have been overkill. Having an object with all my shared data in a useState hook was the best and cleanest option. A lot of my states were stored in App.js to have connection between all the components. This is how I did it:
