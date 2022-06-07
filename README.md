@@ -1,6 +1,8 @@
   # Entertainment Web Application
   
   Frontend Movie and TV application built from raw JSON data. You can bookmark your favorite movies and add them to the bookmark tab, as well as search. You can filter between TV series and movies as well.
+  <img width="1440" alt="Screen Shot 2022-06-07 at 8 24 29 AM" src="https://user-images.githubusercontent.com/91504668/172378042-d29670f2-ddcf-4ee5-b516-eda9137cbca2.png">
+
   
   Live Site: https://zakschenck.github.io/entertainment-web-app/
   
